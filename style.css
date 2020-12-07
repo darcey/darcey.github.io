@@ -4,12 +4,11 @@ body {
     color: black;
     max-width: 50rem;
     margin:auto;
-    font-family:  Garamond, Literata, Georgia, serif;
-    font-size: 100%;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 18px;
 }
 
-h1 {
-    text-align: center;
+div.horizontal-block {
 }
 
 hr {
@@ -21,10 +20,43 @@ hr {
     background-color: gray;
 }
 
-.headshot {
-    max-width: 250px;
+h1 {
+    text-align: center;
 }
 
-.costume {
+
+
+div.about-me {
+    width: 60%;
+    float: left;
+}
+
+div.headshot-and-contact {
+    width: 35%;
+    float: right;
+}
+
+img.headshot-photo {
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+ul.contact {
+    font-size: 16px;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+
+img.costume {
     max-width: 600px;
+}
+
+
+
+.poem {
+    margin-left: 28%;
+    margin-right: auto;
+    width: auto;
+    font-size: 22px;
 }
