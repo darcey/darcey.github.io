@@ -1,0 +1,30 @@
+body {
+    background-color: #e0e0e8;
+    background-color: #e0e8e8;
+    color: black;
+    max-width: 50rem;
+    margin:auto;
+    font-family:  Garamond, Literata, Georgia, serif;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    text-align: center;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
+
+.headshot {
+    max-width: 250px;
+}
+
+.costume {
+    max-width: 600px;
+}
